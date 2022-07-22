@@ -1,0 +1,8 @@
+package ch07.argument_polymorphism;
+
+public class Texi extends Vehicle {
+	@Override
+	public void run() {
+		System.out.println("택시가 달린다.");
+	}
+}
